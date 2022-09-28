@@ -3,7 +3,7 @@ alias relogin='exec $SHELL -l'
 
 # docker
 # 不要なイメージの削除
-alias docker-clean="docker images | awk '/<none/{print $3}' | xargs docker rmi"
+alias d-clean="docker images | awk '/<none/{print $3}' | xargs docker rmi"
 # 起動中のコンテナを全て停止する
 function d-stop () {
   docker stop $(docker ps -q)
