@@ -13,7 +13,6 @@ function d-stopa () {
  alias d-stopa=d-stopa
 
 # git
-# いつものやつら
 alias gb='git branch'
 alias gsw='git switch'
 alias gst='git stash'
