@@ -10,7 +10,7 @@ alias d-clean="docker images | awk '/<none/{print $3}' | xargs docker rmi"
 function d-stopa () {
   docker stop $(docker ps -q)
 }
- alias d-stopa=d-stopa
+alias d-stopa=d-stopa
 
 # git
 alias gb='git branch'
