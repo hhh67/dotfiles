@@ -1,6 +1,10 @@
 # シェルの再起動
 alias relogin='exec $SHELL -l'
 
+# 指定したポートのプロセスを全て停止
+# 引数にはセミコロンとポートを指定
+alias akill='kill -9 $(lsof -ti $i)'
+
 # docker
 # コンテナの停止
 alias dc-stop='docker-compose stop'
@@ -18,6 +22,7 @@ alias gsw='git switch'
 alias gst='git stash'
 alias gps='git push'
 alias gpl='git pull'
+alias gm='git merge'
 # ブランチの発行
 alias gpshoh='gps -u origin HEAD'
 # 部分一致でswitch
