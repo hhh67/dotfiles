@@ -30,6 +30,8 @@ function gsg () {
   git switch $(git branch | grep $1)
 }
 alias gsg=gsg
+# gitのキャッシュをクリアして.gitignoreに追加した項目を適用
+alias gcc='git rm -r --cached . && git add .'
 
 # Xcode - DerivedDataDelete
 alias ddd='sudo rm -rf ~/Library/Developer/Xcode/DerivedData'
