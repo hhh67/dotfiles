@@ -1,3 +1,5 @@
+PROMPT="%~ $ "
+
 # シェルの再起動
 alias relogin='exec $SHELL -l'
 
