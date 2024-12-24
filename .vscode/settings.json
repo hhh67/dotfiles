@@ -1,1 +1,92 @@
+{
+  "editor.fontSize": 11,
+  "problems.showCurrentInStatus": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "git.mergeEditor": false,
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Eva Dark Bold",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#ff9100",
+    "editor.findMatchBackground": "#11ff00",
+    "editor.findMatchHighlightBackground": "#11ff0078"
+  },
+  "editor.stickyScroll.enabled": true,
+  "gitlens.advanced.fileHistoryShowAllBranches": true,
+  "gitlens.advanced.fileHistoryFollowsRenames": true,
+  /**
+        todo tree
+    */
+  // 検索対象
+  "todo-tree.general.tags": [
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "REVIEW",
+    "OPTIMIZE",
+    "CHANGED",
+    "NOTE",
+    "WARNING",
+    "EXAMPLE"
+  ],
+  // ハイライトの色をDraculaテーマに合うように変更
+  // 目立つように行ごとハイライトするように変更
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#FFFFFF",
+    "background": "#9580FF",
+    "type": "whole-line",
+    "iconColor": "#8AFF80",
+    "opacity": 45
+  },
+  // 各タグのアイコンを変更
+  // FIXME,XXXなどのより目立たせたいタグの色を赤系に変更
+  "todo-tree.highlights.customHighlight": {
+    "HACK": {
+      "icon": "shield"
+    },
+    "FIXME": {
+      "icon": "flame",
+      "background": "#FF5555",
+      "iconColor": "#FF5555"
+    },
+    "TODO": {
+      "icon": "tasklist"
+    },
+    "XXX": {
+      "icon": "zap",
+      "background": "#FF5555",
+      "iconColor": "#FF5555"
+    },
+    "REVIEW": {
+      "icon": "eye"
+    },
+    "OPTIMIZE": {
+      "icon": "circle-slash",
+      "background": "#FF5555",
+      "iconColor": "#FF5555"
+    },
+    "CHANGED": {
+      "icon": "pin"
+    },
+    "NOTE": {
+      "icon": "question"
+    },
+    "WARNING": {
+      "icon": "alert",
+      "background": "#FF5555",
+      "iconColor": "#FF5555"
+    }
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "git.suggestSmartCommit": false,
+  "security.promptForLocalFileProtocolHandling": false
+}
 
