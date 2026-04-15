@@ -19,4 +19,6 @@ return {
   enable_tab_bar = true,
   window_decorations = "RESIZE",
   enable_scroll_bar = false,
+  use_ime = true,
+  macos_forward_to_ime_modifier_mask = "SHIFT|CTRL"
 }
